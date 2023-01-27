@@ -1,0 +1,17 @@
+###
+GET http://localhost:8090/
+
+###
+GET http://localhost:8090/products
+
+###
+GET http://localhost:8090/product?id=1
+
+
+###
+POST http://localhost:8090/product
+content-Type: : "application/json"
+
+{
+    "productName" : "Shoes"
+}
